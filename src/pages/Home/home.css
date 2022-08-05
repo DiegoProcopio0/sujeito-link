@@ -1,0 +1,92 @@
+.container-home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.logo span {
+  color: #fff;
+  margin-top: 0.9rem;
+  margin-bottom: 2.1rem;
+  font-size: 1.2rem;
+}
+
+.area-input {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slideY 2s;
+}
+
+@keyframes slideY {
+  from {
+    transform: translateY(90px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.area-input div {
+  width: 100%;
+  height: 46px;
+  background-color: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  padding: 0 0.7rem;
+}
+
+.area-input svg {
+  margin: 0 0.5rem;
+}
+
+.area-input input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  height: 46px;
+  color: #fff;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.area-input input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.container-home button {
+  width: 100%;
+  height: 46px;
+  border-radius: 0.2rem;
+  border: none;
+  font: 1rem bold;
+  color: #000;
+  margin-top: 8px;
+  transition: transform all 0.7s;
+  animation: slideY 2s;
+}
+
+.container-home button:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 200px;
+}
