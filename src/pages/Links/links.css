@@ -49,7 +49,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  
 }
 
 .link svg {
@@ -59,6 +58,14 @@
 .link-delete {
   border: 0;
   background: transparent;
+}
+
+.empty-text {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 28px;
+  
 }
 
 @media (max-width: 715px) {

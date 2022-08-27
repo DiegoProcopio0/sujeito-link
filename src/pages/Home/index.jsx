@@ -6,6 +6,8 @@ import Menu from "../../components/Menu";
 
 import api from "../../../src/services/api"
 
+import { saveLink } from "../../services/storeLinks"
+
 import "./home.css";
 
 function Home() {
@@ -21,6 +23,7 @@ async function handleShortLink() {
       })
       setData(response.data)
       setShowModal(true)
+      saveLink("encurtarLInk", response.data)
       setLink("")
     } catch {
       alert("Ops parece que algo deu errado")
