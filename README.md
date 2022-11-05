@@ -9,7 +9,7 @@
 
 Esse projeto é uma página onde você pode encurtar seus links e eles ficam salvos no navegador(LocalStorage).
 
-## Imagem do projeto
+## Imagens do projeto
 
 #Home
 
